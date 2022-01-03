@@ -1,0 +1,57 @@
+{
+    "user": [{
+            "id": 10,
+            "name": "Kadir",
+            "phone": "123",
+            "password": "123",
+            "image": "assets/user/user-1.png",
+            "roomId": {
+                "20": "room-10",
+                "30": "room-20",
+                "40": "room-30"
+            }
+        },
+        {
+            "id": 20,
+            "name": "Nadir",
+            "phone": "234",
+            "password": "234",
+            "image": "assets/user/user-2.png",
+            "roomId": {
+                "10": "room-10",
+                "30": "room-40",
+                "40": "room-50"
+            },
+            "group": {
+                "123123": "room-1234"
+            }
+        },
+        {
+            "id": 30,
+            "name": "Sadir",
+            "phone": 345,
+            "password": "345",
+            "image": "assets/user/user-3.png",
+            "roomId": {
+                "10": "room-20",
+                "20": "room-40",
+                "40": "room-60"
+            },
+            "group": {
+                "123123": "room-1234"
+            }
+        },
+        {
+            "id": 40,
+            "name": "Tadir",
+            "phone": 456,
+            "password": 456,
+            "image": "assets/user/user-4.png",
+            "roomId": {
+                "10": "room-30",
+                "20": "room-50",
+                "30": "room-60"
+            }
+        }
+    ]
+}
